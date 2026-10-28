@@ -1,0 +1,12 @@
+{
+  "name": "ytdlp-archive-audit",
+  "version": "0.1.0",
+  "description": "Read-only reconciliation of yt-dlp download archives, info JSON and adjacent media",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "bin": { "ytdlp-archive-audit": "src/cli.mjs" },
+  "exports": "./src/index.mjs",
+  "scripts": { "test": "node --test", "demo": "node src/cli.mjs --archive examples/archive.txt --root examples/media" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/DrEli7/ytdlp-archive-audit.git" }
+}
